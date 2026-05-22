@@ -1,0 +1,49 @@
+:root {
+  --navy: #001E5B;
+  --navy-deep: #001139;
+  --blue: #022AC0;
+  --blue-light: #1B96FF;
+  --teal: #06A59A;
+  --gold: #FE9339;
+  --violet: #7C3AED;
+  --red: #EA001E;
+  --green: #2E844A;
+
+  --bg: #0A1628;
+  --bg-card: rgba(255, 255, 255, 0.04);
+  --bg-card-hover: rgba(255, 255, 255, 0.07);
+  --border: rgba(255, 255, 255, 0.08);
+  --border-accent: rgba(27, 150, 255, 0.25);
+
+  --text: rgba(255, 255, 255, 0.92);
+  --text-muted: rgba(255, 255, 255, 0.55);
+  --text-dim: rgba(255, 255, 255, 0.35);
+
+  --font: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  --mono: 'SF Mono', 'Fira Code', 'JetBrains Mono', monospace;
+
+  --radius: 14px;
+  --radius-sm: 8px;
+}
+
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body, #root {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+body {
+  font-family: var(--font);
+  background: var(--bg);
+  color: var(--text);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');

@@ -1,0 +1,76 @@
+.slide-arch {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 1;
+  text-align: center;
+}
+
+.slide-arch .kicker {
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: var(--blue-light);
+  margin-bottom: 12px;
+}
+
+.slide-arch h2 {
+  font-size: clamp(28px, 3.5vw, 40px);
+  font-weight: 700;
+  margin-bottom: 36px;
+}
+
+.arch-stack {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  width: 100%;
+  max-width: 700px;
+  margin-bottom: 32px;
+}
+
+.arch-layer {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  padding: 18px 24px;
+  text-align: left;
+  transition: border-color 0.3s, transform 0.2s;
+}
+
+.arch-layer:hover {
+  border-color: var(--layer-color);
+  transform: translateX(4px);
+}
+
+.layer-bar {
+  width: 4px;
+  height: 40px;
+  border-radius: 2px;
+  background: var(--layer-color);
+  flex-shrink: 0;
+}
+
+.layer-content h3 {
+  font-size: 15px;
+  font-weight: 600;
+  margin-bottom: 4px;
+  color: var(--layer-color);
+}
+
+.layer-content p {
+  font-size: 13px;
+  color: var(--text-muted);
+  line-height: 1.4;
+}
+
+.arch-note {
+  font-size: 13px;
+  color: var(--text-dim);
+  max-width: 600px;
+  line-height: 1.5;
+}
