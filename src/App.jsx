@@ -8,6 +8,7 @@ import SlideArchitecture from './slides/SlideArchitecture'
 import SlideHowItWorks from './slides/SlideHowItWorks'
 import SlideFeatures from './slides/SlideFeatures'
 import SlideDifferentiators from './slides/SlideDifferentiators'
+import SlideOfferResolution from './slides/SlideOfferResolution'
 import SlideCTA from './slides/SlideCTA'
 import './App.css'
 
@@ -18,6 +19,7 @@ const slides = [
   SlideHowItWorks,
   SlideFeatures,
   SlideDifferentiators,
+  SlideOfferResolution,
   SlideCTA,
 ]
 
